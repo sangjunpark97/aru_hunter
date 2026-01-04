@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>메이플스토리 캐릭터 정보</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🍁 메이플스토리 캐릭터 정보</h1>
+        </header>
+
+        <div class="search-section">
+            <input type="text" id="characterInput" placeholder="캐릭터 이름을 입력하세요">
+            <button id="addButton">추가</button>
+        </div>
+
+        <div class="character-list" id="characterList">
+            <h2>캐릭터 목록</h2>
+            <div id="characters"></div>
+        </div>
+
+        <div class="character-detail" id="characterDetail">
+            <button id="closeButton" class="close-btn">×</button>
+            <div id="detailContent"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
